@@ -1,5 +1,9 @@
+
 const swiper = new Swiper(".swiper", {
   loop: true,
+  lazy: {
+    loadPrevNext:true,
+  },
 
   centeredSlides: true,
   pagination: {
